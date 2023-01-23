@@ -11,15 +11,27 @@
   </head>
   <body>
     <p>Drive API Quickstart</p>
-    <!-- <div id="g_id_onload"
+
+    <div id="g_id_onload"
      data-client_id="613067365555-vboilb49f9s7s2qvakcr2up5g06t4slf.apps.googleusercontent.com"
      data-context="signin"
-     data-itp_support="true">
-    </div> -->
+     data-ux_mode="popup"
+     data-login_uri="https://github.com"
+     data-auto_prompt="false">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="rectangular"
+     data-theme="outline"
+     data-text="signin_with"
+     data-size="large"
+     data-logo_alignment="left">
+</div>
 
     <!-- Add buttons to initiate auth sequence and sign out-->
-    <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
-    <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
+    <!-- <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
+    <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button> -->
 
     <pre id="content" style="white-space: pre-wrap;"></pre>
    
