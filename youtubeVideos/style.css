@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1 400px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+}
+
+
+article:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+article h2 {
+    height: 8vh;
+}
+
+article img {
+    height: 30vh;
+}
